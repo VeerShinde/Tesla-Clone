@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/https//VeerShinde.github.io/Tesla-Clone/static/css/main.c6a03446.css",
-    "main.js": "/https//VeerShinde.github.io/Tesla-Clone/static/js/main.f7e9eb12.js",
-    "static/js/787.860837ff.chunk.js": "/https//VeerShinde.github.io/Tesla-Clone/static/js/787.860837ff.chunk.js",
-    "static/media/logo.svg": "/https//VeerShinde.github.io/Tesla-Clone/static/media/logo.b2e5a01e505f739f1484b881277d5186.svg",
-    "index.html": "/https//VeerShinde.github.io/Tesla-Clone/index.html",
-    "main.c6a03446.css.map": "/https//VeerShinde.github.io/Tesla-Clone/static/css/main.c6a03446.css.map",
-    "main.f7e9eb12.js.map": "/https//VeerShinde.github.io/Tesla-Clone/static/js/main.f7e9eb12.js.map",
-    "787.860837ff.chunk.js.map": "/https//VeerShinde.github.io/Tesla-Clone/static/js/787.860837ff.chunk.js.map"
+    "main.css": "/Tesla-Clone/static/css/main.c6a03446.css",
+    "main.js": "/Tesla-Clone/static/js/main.a0257c81.js",
+    "static/js/787.860837ff.chunk.js": "/Tesla-Clone/static/js/787.860837ff.chunk.js",
+    "static/media/logo.svg": "/Tesla-Clone/static/media/logo.b2e5a01e505f739f1484b881277d5186.svg",
+    "index.html": "/Tesla-Clone/index.html",
+    "main.c6a03446.css.map": "/Tesla-Clone/static/css/main.c6a03446.css.map",
+    "main.a0257c81.js.map": "/Tesla-Clone/static/js/main.a0257c81.js.map",
+    "787.860837ff.chunk.js.map": "/Tesla-Clone/static/js/787.860837ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6a03446.css",
-    "static/js/main.f7e9eb12.js"
+    "static/js/main.a0257c81.js"
   ]
 }
