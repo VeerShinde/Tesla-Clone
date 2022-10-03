@@ -31,11 +31,12 @@ function Header() {
         <a href="#">Shop</a>
         <a href="#">Tesla Account</a>
       </Rightmenu>
+      {/* Displayed hamburgermenu*/}
       {/* on click of hamburgermenu BurgerStatus value will change to true which will open the options.*/}
-      <CustomMenu onClick={() => setBurgerStatus(true)} />
+      <CustomMenu onClick={() => setBurgerStatus(true)} />{" "}
       <BurgerMenu show={BurgerStatus}>
         <CloseWrapper>
-          {/* on click of customclose the burgerstatus will change to false which will drap the menu to righ side with his full width. Its gone.*/}
+          {/* on click of customclose the burgerstatus will change to false which will drag the menu to righ side with his full width. Its gone.*/}
           <CustomClose onClick={() => setBurgerStatus(false)} />
         </CloseWrapper>
         {/* using reduxState below*/}
@@ -125,6 +126,7 @@ const BurgerMenu = styled.div`
   text-align: start;
   // translate move the element. we are using this for hamburger menu.
   transform: ${(props) => (props.show ? `translateX(0)` : `translateX(100%)`)};
+  // if props.show is true then don't do anything burgermenu will be visible.
   // translate 0 will not move hamburger menu at all. it will be visible
   // agar value false aali tar move hambburger menu right n side with his full width. 100% gayab kar hamburger menu la.
   transiton: transform 0.2s;
